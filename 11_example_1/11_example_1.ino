@@ -9,7 +9,9 @@
 // configurable parameters
 #define SND_VEL 346.0 // sound velocity at 24 celsius degree (unit: m/s)
 #define INTERVAL 25 // sampling interval (unit: ms)
+//LED 점등을 확인하기 위해서 180이 아닌 160으로 설정
 #define _DIST_MIN 160 // minimum distance to be measured (unit: mm)
+//LED 점등을 확인하기 위해서 360이 아닌 380으로 설정
 #define _DIST_MAX 380 // maximum distance to be measured (unit: mm)
 #define _DIST_ALPHA 0.85
 #define _DUTY_MIN 550 // servo full clockwise position (0 degree)
